@@ -1,0 +1,9 @@
+#repositoryID: The ID of the Artifact Hub repository where the packages will be published to (optional, but it enables verified publisher)
+repositoryID: 199342fe-34b7-4c1a-a890-d8e387724cd6
+owners: # (optional, used to claim repository ownership)
+  - name: Christian S. Pedersen
+    email: csondergaardp@gmail.com
+ignore: # (optional, packages that should not be indexed by Artifact Hub)
+  - name: package1
+  - name: package2 # Exact match
+    version: beta # Regular expression (when omitted, all versions are ignored)
